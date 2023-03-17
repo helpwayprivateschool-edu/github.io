@@ -1,0 +1,350 @@
+@media screen and (max-width: 600px) {
+
+    marquee {
+        width: 83%;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .popupmenu {
+        display: block;
+        width: fit-content;
+        height: 60px;
+        padding: 16.5px;
+        background-color: rgba(229, 226, 226, .5);
+        box-sizing: border-box;
+    }
+
+    .pum_container {
+        border: 2px solid rgb(179, 174, 174);
+        padding: 2px;
+        height: 27px;
+        width: 27px;
+        background-color: #fff;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bars {
+        height: 4px;
+        margin-bottom: 3px;
+        background-color: rgb(179, 174, 174);
+        box-sizing: border-box;
+    }
+
+    .bars:last-child {
+        margin-bottom: 0;
+    }
+
+    .popup {
+        position: absolute;
+        top: 60px;
+        left: -4px;
+        padding: 8px;
+        background-color: #fff;
+        height: 310px;
+        width: 50%;
+        border-radius: 0 5px 5px 0;
+        overflow-y: auto;
+        box-sizing: border-box;
+    }
+
+    .cancel {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        width: fit-content;
+        height: fit-content;
+        padding: 0 7px 4px;
+        border-radius: 50%;
+        color: red;
+        box-sizing: border-box;
+    }
+
+    .popup ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        height: 100%;
+        padding: 2em;
+        box-sizing: border-box;
+    }
+
+    .popup ul li {
+        margin-bottom: 8px;
+        width: fit-content;
+        padding: 4px 0;
+    }
+
+    .popup ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .popup ul li a {
+        width: fit-content;
+        padding: 4px 1.5em 4px 0;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    .logo_container {
+        width: 100px;
+        height: 120px;
+        left: 3.75%;
+    }
+
+    .logo_con {
+        width: 70px;
+        height: 70px;
+        bottom: 14px;
+        left: .85em;
+        box-sizing: border-box;
+    }
+    
+    .logo {
+        top: .85em;
+        left: .75em;
+    }
+
+    .school_name {
+        display: none;
+    }
+
+    .banner {
+        height: 313px;
+    }
+
+    .slider_image {
+        height: 313px;
+    }
+    
+
+    .left_menu, .right_menu {
+        display: none;
+    }
+
+    .logo_container {
+        margin: 0 auto;
+    }
+
+    .news_bar {
+        display: none;
+    }
+
+    .welcome_address {
+        flex-direction: column;
+    }
+
+    .proprietress_image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enrol_btn {
+        right: 1.5em;
+        top: 150%;
+    }
+
+    .admission_image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .gar:last-child {
+        display: none;
+    }
+
+    .gar {
+        height: 100px;
+    }
+
+    .gallary {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .single_display {
+        width: 100%;
+        margin: 8px auto;
+        height: fit-content;
+    }
+
+    .main_1, .main_2, .main_4 {
+        width: 90%;
+    }
+
+    .testimony_container > div {
+        width: 50%;
+        height: 460px;
+        padding: 8px 4px;
+    }
+
+    .pt_image {
+        width: 8.5em;
+        height: 9em;
+        margin: 8px auto;
+        border: 2px solid rgba(229, 226, 226, .5);
+    }
+
+    .sponsorship {
+        flex-direction: column;
+    }
+
+    .sponsorship_card {
+        margin: 0;
+    }
+    
+    .sponsorship_card:first-child {
+        margin-bottom: 3px;
+    }
+
+    .donote_btn {
+        top: 38%;
+        right: 8%;
+    }
+
+    .contact_us {
+        flex-direction: column-reverse;
+    }
+
+    .contact {
+        border-right: none;
+    }
+
+    .onsite div img {
+        margin: 0 8px 0 0;
+    }
+
+    .divider {
+        width: 14%; 
+    }
+
+    .toggle_btn {
+        right: 1em;
+        position: relative;
+        margin: 8px 0 0 auto;
+        border: none;
+    }
+
+    .toggle_btn:hover {
+        border: none;
+    }
+
+    .position {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 0 5px 0;
+        margin-bottom: 8px;
+        border-radius: 30px 0 0 30px;
+        background-color: rgba(167, 166, 166, 0.5);
+        border-right: 2px solid red;
+    }
+
+    .fresh_form {
+        width: 100%;
+    }
+
+    .group_control input[type="text"], select, input[type="date"] {
+        width: 94%;
+        right: 8px;
+        left: 8px;
+        box-sizing: border-box;
+    }
+
+    .gender label {
+        margin-right: 2em;
+    }
+
+    .gender label:last-child {
+        margin-right: 3.25em;
+    }
+
+    .sect {
+        display: none;
+    }
+
+    .section_title_2 {
+        width: 100%;
+        border: 4px solid red;
+        background-color: #eee;
+        border-radius: 5px 5px 0 0;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .how_tab {
+        display: block;
+    }
+
+    .not_ready {
+        width: 100%;
+        margin: 16px 3em 8px -6px;
+    }
+
+    .welcome_speech, .admission_writeup {
+        padding: 0;
+        font-size: medium;
+        text-align: justify;
+        line-height: 1.5;
+        box-sizing: border-box;
+    }
+
+    .admission_writeup {
+        padding-bottom: .5em;
+    }
+
+    .payment p {
+        padding: 0;
+    }
+
+    .vision_block {
+        width: 100%;
+        padding: 0 1.5em;
+        box-sizing: border-box;
+    }
+
+    .orientation {
+        flex-direction: column;
+        padding: 8px 4px;
+    }
+
+}
+
+@media screen and (min-width: 601px) {
+
+    .popup {
+        display: none;
+    }
+
+    .news_bar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 913px) {
+    .popup {
+        display: none;
+    }
+
+    .news_bar {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .header, .container, .footer {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .popup {
+        display: none;
+    }
+}

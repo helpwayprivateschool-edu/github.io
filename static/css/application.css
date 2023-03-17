@@ -1,0 +1,133 @@
+.fresh_form {
+    width: 60%;
+    margin: 0 auto 32px;
+}
+
+.application {
+    margin-top: 8px;
+}
+
+.last_school_attended {
+    margin-top: 24px;
+}
+
+.group_control {
+    padding: 16px 8px;
+    border-radius: 5px;
+    margin: 0 0 8px;
+    position: relative;
+    background-color: rgba(0, 0, 0, .125);
+    box-sizing: border-box;
+}
+
+.group_control input[type="text"], select, input[type="date"] {
+    padding: 8px;
+    width: 50%;
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+select {
+    width: 53.5%;
+}
+
+.group_control p {
+    display: inline;
+}
+
+.middle {
+    text-align: center;
+}
+
+.group_control input[type="submit"], input[type="reset"] {
+    padding: 16px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+}
+
+.group_control input[type="reset"]{
+    background-color: rgba(0, 0, 0, .125);
+    color: #000;
+}
+
+.position {
+    position: relative;
+    height: fit-content;
+    margin-top: 16px;
+}
+
+.toggle_btn {
+    width: fit-content;
+    cursor: pointer;
+    padding: 0 4px 4px;
+    position: absolute;
+    right: 1em;
+    top: 0;
+    border-bottom: 2px solid rgba(40, 40, 40, .125);
+}
+
+.position_p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.toggle_btn:hover {
+    color: rgb(0, 240, 0);
+    border-bottom: 2px solid rgb(0, 240, 0);
+}
+
+.main_section {
+    display: flex;
+}
+
+.sections{
+    flex: 1;
+}
+
+.section_title {
+    text-align: right;
+    padding: 5px;
+    width: fit-content;
+    cursor: pointer;
+    border: 4px solid red;
+    border-bottom: none;
+    background-color: rgba(40, 40, 40, .125);
+    box-sizing: border-box;
+}
+
+.section_title_1 {
+    margin: 0 0 0 auto;
+    border-right: none;
+    border-left-color: red;
+    background-color: #eee;
+    border-radius: 5px 0 0 0;
+}
+
+.section_body {
+    padding: 8px;
+    text-align: justify;
+}
+
+.section_title_2 {
+    border-radius: 0 5px 0 0;
+    text-align: left;
+    border-left: none;
+    border-right-color: rgba(40, 40, 40, .125);
+}
+
+.not_ready {
+    width: 80%;
+    margin: 16px 10em 8px 4em;
+    border-radius: 15.5px;
+    padding: 4px;
+    border: 1px inset rgba(70, 43, 43, 0.125);
+    box-shadow: 1px 2px 2px rgba(70, 43, 43, 0.125);
+}
