@@ -48,8 +48,8 @@ let slide_testimony = () => {
   }
   pupil_image.src = `./static/images/testifier_images/${p_images.images[0]}.jpg`;
   pupil_statement.innerHTML =
-    p_images.statements[p_index].length > 225
-      ? p_images.statements[p_index].substring(0, 221) + "..."
+    p_images.statements[p_index].length > 120
+      ? p_images.statements[p_index].substring(0, 120) + "..."
       : p_images.statements[p_index];
   pupil_name.innerHTML = p_images.names[p_index];
   if (pt_index >= pt_threshold) {
@@ -57,8 +57,8 @@ let slide_testimony = () => {
   }
   parent_image.src = `./static/images/testifier_images/${pt_images.images[0]}.jpg`;
   parent_statement.innerHTML =
-    pt_images.statements[pt_index].length > 225
-      ? pt_images.statements[pt_index].substring(0, 221) + "..."
+    pt_images.statements[pt_index].length > 120
+      ? pt_images.statements[pt_index].substring(0, 120) + "..."
       : pt_images.statements[pt_index];
   parent_name.innerHTML = pt_images.names[pt_index];
 };
