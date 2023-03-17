@@ -18,5 +18,5 @@ let slide = () => {
     if (index >= threshold) {
         index = 0;
     }
-    banner_image.src = `../frontend/static/images/slide_images/${images[index]}.jpg`;
+    banner_image.src = `./static/images/slide_images/${images[index]}.jpg`;
 }
